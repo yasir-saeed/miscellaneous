@@ -11,7 +11,7 @@ public class Main {
         int randomNum;
         String userInput, output;
 
-
+        
         System.out.print("Input string to convert: ");
         userInput = scanner.nextLine().toLowerCase();
 
@@ -22,20 +22,15 @@ public class Main {
 
             randomNum = (int) (Math.random() * ((1) + 1));
 
-
             if (randomNum == 1) {
                 conversion[i] = conversion[i].toUpperCase();
             }
-
-
         }
 
         for (int i = 0; i < conversion.length; i++) {
 
             System.out.print(conversion[i]);
 
-
         }
-
     }
 }
